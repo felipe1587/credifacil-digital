@@ -1,0 +1,14 @@
+# Ignore arquivos temporários do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Ignore arquivos temporários do editor
+*.log
+*.tmp
+*.swp
+
+# Ignore pastas de build ou dependências, caso venham a existir
+node_modules/
+dist/
+build/
+.env
